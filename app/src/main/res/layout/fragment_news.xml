@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fff"
     tools:context=".NewsFragment">
 
 
@@ -11,7 +12,9 @@
         android:layout_height="match_parent"
         android:layout_gravity="center"
         android:gravity="center"
-        android:textSize="30sp"
+        android:textSize="34sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
         android:text="News" />
 
 </FrameLayout>
